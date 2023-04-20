@@ -49,6 +49,8 @@ const App: React.FC = () => {
   const [gitHubRepoLink, setGitHubRepoLink] = useState<GitHubRepoLink>({ repo: '', user: ''})
   const {issue, stars} = useActions()
 
+  console.log(issues)
+
   useEffect(() => {
     setGitHubRepoLink({ user: '', repo: '' });
     setBoards((prevBoards: any) => {
@@ -95,9 +97,9 @@ const App: React.FC = () => {
     return (
         <div className="fetching-error">
           {error}
-          <span>Please check the correctness of the link to the repository, because that might be the problem :)</span>
-          <span>Recommended link type by GitHub API to get issues - https://api.github.com/repos/USERNAME/NAME_OF_REPO/issues</span>
-        </div>
+            <span>Please check the correctness of the link to the repository, because that might be the problem :)</span>
+            <span>Recommended link type by GitHub API to get issues - https://api.github.com/repos/USERNAME/NAME_OF_REPO/issues</span>
+          </div>
     );
   }
 
