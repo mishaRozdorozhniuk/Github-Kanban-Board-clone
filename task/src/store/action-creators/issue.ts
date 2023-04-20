@@ -2,7 +2,7 @@ import {IssueAction, IssueActionTypes} from "../../types/issue";
 import {Dispatch} from "redux";
 import axios from "axios";
 
-const token = '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';
+const token = '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';
 
 export const fetchIssues = (url: string) => {
     return async (dispatch: Dispatch<IssueAction>) => {

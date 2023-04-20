@@ -2,7 +2,7 @@ import {StarsAction, StarsActionTypes} from "../../types/stars";
 import {Dispatch} from "redux";
 import axios from "axios";
 
-const token = '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';
+const token = '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';
 
 export const fetchStartQuantity = (url: string) => {
     return async (dispatch: Dispatch<StarsAction>) => {
