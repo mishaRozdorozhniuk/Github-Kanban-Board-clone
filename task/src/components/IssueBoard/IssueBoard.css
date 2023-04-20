@@ -1,0 +1,99 @@
+.board {
+    min-width: 300px;
+    min-height: 100%;
+    border: 1px solid #24242c;
+    padding: 20px 10px;
+    border-radius: 5px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(1, 4, 9);
+}
+
+.board__wrapper {
+    display: flex;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.board__title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: rgb(201, 209, 217);
+    margin: 0 auto 10px 10px;
+}
+
+.board__wrapper {
+    display: flex;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+input.ant-input.css-dev-only-do-not-override-1mqg3i0 {
+    background-color: #0e1119;
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid rgb(48, 54, 61);
+    box-shadow: rgb(1, 4, 9) 0 3px 6px;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(201, 209, 217);
+}
+
+input.ant-input.css-dev-only-do-not-override-1mqg3i0::placeholder {
+    color: #fff;
+}
+
+button.ant-btn.css-dev-only-do-not-override-1mqg3i0.ant-btn-default.ant-btn-icon-only.ant-input-search-button {
+    display: none;
+}
+
+.board__loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+button.ant-btn.css-dev-only-do-not-override-1mqg3i0.ant-btn-primary {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0 ;
+}
+
+.star__wrapper {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.fetching-error {
+    font-size: 35px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.fetching-error span {
+    display: block;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.board__link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #0074D9;
+}
+
+.repo__info {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 10px 145px;
+}
